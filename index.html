@@ -53,6 +53,14 @@
     };
 </script>
   
+  window.$docsify = {
+    progress: {
+        position: "top",
+        color: "var(--theme-color,#42b983)",
+        height: "3px",
+    }
+}
+  
   
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <!--Java代码高亮-->
@@ -70,6 +78,8 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
    <!-- 分享插件 -->
   <script src="//unpkg.com/docsify-share/build/index.min.js"></script>
+  <!-- 阅读进度 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
 
 </body>
 
